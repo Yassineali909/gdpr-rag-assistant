@@ -1,0 +1,102 @@
+General Data Protection Regulation (GDPR) — Simplified Sample
+
+NOTE: This is a SHORT, SIMPLIFIED, plain-language sample written for testing the
+pipeline only. It is NOT the official legal text. Replace it with the full official
+text (scripts/download_gdpr.py) before presenting the project.
+
+
+Article 5 — Principles relating to processing of personal data
+
+Personal data must be processed lawfully, fairly and in a transparent manner. Data
+must be collected for specified, explicit and legitimate purposes and not used in a
+way incompatible with those purposes. Data collected should be adequate, relevant and
+limited to what is necessary (data minimisation). Data must be accurate and kept up to
+date. Data should not be kept longer than necessary. Data must be handled securely,
+protecting against unauthorised processing, loss or damage. The controller is
+responsible for, and must be able to demonstrate compliance with, these principles
+(accountability).
+
+
+Article 6 — Lawfulness of processing
+
+Processing is lawful only if at least one of the following applies: the person has
+given consent; processing is necessary to perform a contract; processing is needed to
+comply with a legal obligation; processing protects someone's vital interests;
+processing is carried out in the public interest; or processing is necessary for the
+legitimate interests of the controller, unless those interests are overridden by the
+rights of the individual.
+
+
+Article 7 — Conditions for consent
+
+Where processing relies on consent, the controller must be able to show that the person
+consented. Requests for consent must be presented clearly and in plain language,
+separate from other matters. The person has the right to withdraw consent at any time,
+and withdrawing consent must be as easy as giving it.
+
+
+Article 15 — Right of access by the data subject
+
+Individuals have the right to obtain confirmation of whether their personal data is
+being processed, and if so, to access that data. They can also ask for information
+about the purposes of processing, the categories of data, who the data has been shared
+with, how long it will be stored, and the existence of their other rights.
+
+
+Article 16 — Right to rectification
+
+Individuals have the right to have inaccurate personal data corrected without undue
+delay, and to have incomplete data completed.
+
+
+Article 17 — Right to erasure ("right to be forgotten")
+
+Individuals have the right to have their personal data erased without undue delay in
+certain situations: when the data is no longer needed for its original purpose; when
+the person withdraws consent and there is no other legal ground; when the person
+objects and there are no overriding legitimate grounds; when the data was processed
+unlawfully; or when erasure is required to comply with a legal obligation. This right
+does not apply where processing is necessary for freedom of expression, for compliance
+with a legal obligation, for reasons of public interest, or for the establishment or
+defence of legal claims.
+
+
+Article 20 — Right to data portability
+
+Individuals have the right to receive their personal data in a structured, commonly
+used and machine-readable format, and to transmit that data to another controller
+without hindrance, where processing is based on consent or a contract and is carried
+out by automated means.
+
+
+Article 25 — Data protection by design and by default
+
+Controllers must implement appropriate technical and organisational measures to apply
+data protection principles effectively, both at the time of designing a system and by
+default. By default, only personal data necessary for each specific purpose should be
+processed.
+
+
+Article 32 — Security of processing
+
+Controllers and processors must implement appropriate technical and organisational
+measures to ensure a level of security appropriate to the risk. This may include
+encryption and pseudonymisation of data, ensuring ongoing confidentiality, integrity
+and resilience of systems, the ability to restore data after an incident, and a process
+for regularly testing and evaluating the effectiveness of security measures.
+
+
+Article 33 — Notification of a personal data breach to the supervisory authority
+
+In the case of a personal data breach, the controller must notify the competent
+supervisory authority without undue delay and, where feasible, no later than 72 hours
+after becoming aware of it, unless the breach is unlikely to result in a risk to
+individuals. If notification is not made within 72 hours, it must be accompanied by
+reasons for the delay.
+
+
+Article 34 — Communication of a personal data breach to the data subject
+
+When a personal data breach is likely to result in a high risk to individuals, the
+controller must inform the affected individuals without undue delay, in clear and plain
+language describing the nature of the breach and the measures taken.

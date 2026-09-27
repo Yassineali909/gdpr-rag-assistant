@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.Python
+*.egg-info/
+
+# Vector store (rebuilt from source, don't commit)
+chroma_db/
+
+# Environment / secrets
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data — keep the sample, ignore large downloaded corpora
+data/full_gdpr.txt
+data/*.pdf

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the right to be forgotten?",
+    "expected_article": "17",
+    "note": "Should explain erasure and cite Article 17."
+  },
+  {
+    "question": "How quickly must a data breach be reported to the authority?",
+    "expected_article": "33",
+    "note": "72 hours, Article 33."
+  },
+  {
+    "question": "Can someone withdraw their consent?",
+    "expected_article": "7",
+    "note": "Yes, and it must be as easy as giving it. Article 7."
+  },
+  {
+    "question": "What formats must data be provided in for portability?",
+    "expected_article": "20",
+    "note": "Structured, commonly used, machine-readable. Article 20."
+  },
+  {
+    "question": "What are the lawful bases for processing personal data?",
+    "expected_article": "6",
+    "note": "Consent, contract, legal obligation, vital interests, public interest, legitimate interests. Article 6."
+  },
+  {
+    "question": "What is the capital of France?",
+    "expected_article": "OUT_OF_SCOPE",
+    "note": "Must refuse — not covered by the regulation."
+  },
+  {
+    "question": "How do I bake sourdough bread?",
+    "expected_article": "OUT_OF_SCOPE",
+    "note": "Must refuse — not covered by the regulation."
+  },
+  {
+    "question": "What must a company prove about how it handles data, and what makes processing legal in the first place?",
+    "expected_article": "6",
+    "note": "Multi-article: Art.5 principles/accountability + Art.6 lawful bases. Watch whether both appear in sources."
+  },
+  {
+    "question": "If a firm loses control of customer records to a hacker, how fast must it tell the regulator?",
+    "expected_article": "33",
+    "note": "Synonym-heavy rephrase of breach notification; stresses dense retriever, not BM25."
+  },
+  {
+    "question": "Someone leaked my personal data. How do I sue them for damages in court?",
+    "expected_article": "82",
+    "note": "Full GDPR HAS Art.82 (compensation) + Art.79 (judicial remedy). In lay terms (sue/damages/court) with no legal vocabulary — a RECALL test: can the pipeline surface Art.82 from street language? Was mislabeled OUT_OF_SCOPE (written for the sample text, which had no remedies article)."
+  },
+  {
+    "question": "Can I ask a company to send my data straight to a competitor in a usable file format?",
+    "expected_article": "20",
+    "note": "Synonym-heavy rephrase of portability; avoids portability/machine-readable vocabulary."
+  }
+]
